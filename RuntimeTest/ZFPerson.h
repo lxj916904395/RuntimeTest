@@ -7,6 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZFPerson : NSObject
+@interface ZFPerson : NSObject<NSCoding>
+
+@property(strong ,nonatomic) NSString *name;
+@property(assign ,nonatomic) int age;
 
 @end
