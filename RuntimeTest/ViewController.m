@@ -20,7 +20,14 @@
     [super viewDidLoad];
     
 //    [self createClass];
-    [self archive];
+    [self runtimeTest];
+}
+
+- (void)runtimeTest{
+//    ZFPerson *p = [ZFPerson new];
+//    [p walk];
+    
+    [ZFPerson jump];
 }
 
 - (void)archive{

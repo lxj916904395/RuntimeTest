@@ -12,4 +12,9 @@
 @property(strong ,nonatomic) NSString *name;
 @property(assign ,nonatomic) int age;
 
+- (void)run;
+- (void)walk;
+
++ (void)jump;
+
 @end
