@@ -16,6 +16,7 @@
 		4D524B772147B13F003563D6 /* RuntimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D524B762147B13F003563D6 /* RuntimeTestTests.m */; };
 		4D524B822147B13F003563D6 /* RuntimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D524B812147B13F003563D6 /* RuntimeTestUITests.m */; };
 		4D524B912147BADF003563D6 /* ZFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D524B902147BADF003563D6 /* ZFPerson.m */; };
+		4D53DFB42151EFF10096263F /* ZFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D53DFB32151EFF10096263F /* ZFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4D524B832147B13F003563D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D524B8F2147BADF003563D6 /* ZFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFPerson.h; sourceTree = "<group>"; };
 		4D524B902147BADF003563D6 /* ZFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPerson.m; sourceTree = "<group>"; };
+		4D53DFB22151EFF10096263F /* ZFDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFDog.h; sourceTree = "<group>"; };
+		4D53DFB32151EFF10096263F /* ZFDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4D524B6C2147B13F003563D6 /* main.m */,
 				4D524B8F2147BADF003563D6 /* ZFPerson.h */,
 				4D524B902147BADF003563D6 /* ZFPerson.m */,
+				4D53DFB22151EFF10096263F /* ZFDog.h */,
+				4D53DFB32151EFF10096263F /* ZFDog.m */,
 			);
 			path = RuntimeTest;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D524B912147BADF003563D6 /* ZFPerson.m in Sources */,
+				4D53DFB42151EFF10096263F /* ZFDog.m in Sources */,
 				4D524B622147B13D003563D6 /* ViewController.m in Sources */,
 				4D524B6D2147B13F003563D6 /* main.m in Sources */,
 				4D524B5F2147B13D003563D6 /* AppDelegate.m in Sources */,

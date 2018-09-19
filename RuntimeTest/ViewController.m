@@ -24,10 +24,10 @@
 }
 
 - (void)runtimeTest{
-//    ZFPerson *p = [ZFPerson new];
-//    [p walk];
+    ZFPerson *p = [ZFPerson new];
+    [p run];
     
-    [ZFPerson jump];
+//    [ZFPerson jump];
 }
 
 - (void)archive{
